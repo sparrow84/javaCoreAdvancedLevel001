@@ -18,7 +18,13 @@ public class Course {
         }
     }
 
-    public void toRunDistance() {
-        //
+    public void toRunDistance(Team team) {
+
+        for (Member m: team.teamMember) {
+            for (Obstacle o: obstacle) {
+                m.overcomeObstacle(o);
+            }
+        }
+
     }
 }

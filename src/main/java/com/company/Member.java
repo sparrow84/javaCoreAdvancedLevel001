@@ -17,4 +17,10 @@ public class Member {
     public String toString () {
         return "Member: " + name + "  (id: " + id + ")";
     }
+
+    public boolean overcomeObstacle(Obstacle obstacle) {
+
+
+        return true;
+    }
 }

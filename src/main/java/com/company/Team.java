@@ -10,7 +10,7 @@ package com.company;
 
 public class Team {
     private String teamName;
-    private Member[] teamMember;
+    protected Member[] teamMember;
 
     public Team(String teamName){
         this.teamName = teamName;
