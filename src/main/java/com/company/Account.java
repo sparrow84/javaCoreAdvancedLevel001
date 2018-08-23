@@ -1,8 +1,8 @@
 package com.company;
 
-import lombok.Data;
+//import lombok.Data;
 
-@Data
+//@Data
 public class Account {
 
 
@@ -21,33 +21,33 @@ public class Account {
         System.out.println("Call def constructor");
     }
 
-//    public String getFio() {
-//        return fio;
-//    }
-//
-//    public void setFio(String fio) {
-//        this.fio = fio;
-//    }
-//
-//    public double getAmount() {
-//        return amount;
-//    }
-//
-//    public void setAmount(double amount) {
-//        this.amount = amount;
-//    }
-//
-//    public long getId() {
-//        return id;
-//    }
-//
-//    public static long getCount() {
-//        return count;
-//    }
-//
-//    public static void setCount(long count) {
-//        Account.count = count;
-//    }
+    public String getFio() {
+        return fio;
+    }
+
+    public void setFio(String fio) {
+        this.fio = fio;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public static long getCount() {
+        return count;
+    }
+
+    public static void setCount(long count) {
+        Account.count = count;
+    }
 
     public void addValue(double v) {
         this.amount += v;

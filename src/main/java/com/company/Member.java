@@ -1,8 +1,13 @@
 package com.company;
 
-import lombok.Data;
+//import lombok.Data;
+// Lombok почемуто не работает!
+// Использование аннотаций в идее включил,
+// плагин поставил, в мавен зависимостях
+// прописал, сама библиотека подтянулась.
+// А воз и ныне там =(
 
-@Data
+//@Data
 public class Member {
     private static int id;
     private String name;
