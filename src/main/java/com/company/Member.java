@@ -27,8 +27,8 @@ public class Member {
 
     public boolean overcomeObstacle(Obstacle obstacle) {
 
-        int i = new Random().nextInt(1);
+        int i = new Random().nextInt(100);
 
-        return i == 1 ? true : false;
+        return i > 5 ? true : false;
     }
 }
