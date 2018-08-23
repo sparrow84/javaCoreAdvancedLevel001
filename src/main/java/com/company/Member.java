@@ -7,6 +7,8 @@ package com.company;
 // прописал, сама библиотека подтянулась.
 // А воз и ныне там =(
 
+import java.util.Random;
+
 //@Data
 public class Member {
     private static int id;
@@ -25,7 +27,8 @@ public class Member {
 
     public boolean overcomeObstacle(Obstacle obstacle) {
 
+        int i = new Random().nextInt(1);
 
-        return true;
+        return i == 1 ? true : false;
     }
 }
